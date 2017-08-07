@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">INFO0064</string>
+    <string name="calibrate">Calibrating</string>
+    <string name="close">Close</string>
+    <string name="connected">Connected to %1$s</string>
+    <string name="connecting">Connecting to... %1$s</string>
+    <string name="credits">Credits</string>
+    <string name="discoveredDevices"><u>Discovered devices</u></string>
+    <string name="exit">Exit</string>
+    <string name="help">help</string>
+    <string name="next">Next</string>
+    <string name="noBlue">No Bluetooth</string>
+    <string name="no_device">No device</string>
+    <string name="not_connected">Not connected</string>
+    <string name="open">Open</string>
+    <string name="pairedDevices"><u>Paired devices</u></string>
+    <string name="hand">Put your hand on the doorknob</string>
+    <string name="no_hand">Remove your hand from the doorknob</string>
+</resources>

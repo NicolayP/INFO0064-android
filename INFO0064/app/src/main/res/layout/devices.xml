@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="16pt"
+        >
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="10pt"
+        android:layout_height="match_parent"
+        android:src="@drawable/bt"
+        android:contentDescription="@string/pairedDevices"
+        android:background="@color/colorPrimaryDark">
+    </ImageView>
+    <TextView
+        android:id="@+id/myText"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:text="@string/pairedDevices"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimaryDark">
+    </TextView>
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pairedDevice">
+    </ListView>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="16pt"
+    >
+
+    <ImageView
+        android:id="@+id/iconDisco"
+        android:layout_width="10pt"
+        android:layout_height="match_parent"
+        android:src="@drawable/bt"
+        android:contentDescription="@string/pairedDevices"
+        android:background="@color/colorPrimaryDark">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textDisco"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/iconDisco"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:text="@string/discoveredDevices"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimaryDark">
+    </TextView>
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/discoveredDevice">
+    </ListView>
+
+</LinearLayout>
